@@ -1,5 +1,4 @@
 
-
 <style>
 body {
     background-color: #004c93;
@@ -11,6 +10,7 @@ margin-top:30px;
 }
 .ms-breadcrumb-top{
 background-color:#004c93;
+border-radius: 10px !important; 
 }
 .ms-core-navigation > div > ul.root > li.static a:link, ul.root > li.static a:visited{
 font-family:Arial; font-size:13px;
@@ -26,11 +26,11 @@ padding-left:8px;
 .ms-core-navigation > div > ul.root > li a{
 border-radius: 5px !important; 
 border: 1px #fff solid; /* Thin border for each section in a selected navbar dropdown */
-padding:15px 20px 22px 20px; /* size of the navbar */
+padding:15px 20px 22px 20px;  /*blue space around every element */
 font-size:13px;
 }
 .ms-core-navigation .ms-core-listMenu-horizontalBox li.static >  .ms-core-listMenu-item{
-margin-right:2px;
+margin-right:0.1px;
 }
 /* links not selected */
 .ms-core-navigation > div > ul.root > li.static a:link, ul.root > li.static a:visited{
@@ -49,7 +49,7 @@ background-color:#004c93;
 }
 /* home */
 .ms-core-navigation > div > ul.root > li.static > ul.static{
-margin-left:0px;
+margin-left:0.5px;
 }
 /* Hover */
 .ms-breadcrumb-top .ms-core-navigation ul.static > li a:hover{
