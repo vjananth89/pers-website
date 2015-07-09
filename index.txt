@@ -10,8 +10,9 @@ margin-top:30px;
 }
 .ms-breadcrumb-top{
 background-color:#004c93;
-border-radius: 10px !important; 
+border-radius: 6px !important; 
 }
+
 .ms-core-navigation > div > ul.root > li.static a:link, ul.root > li.static a:visited{
 font-family:Arial; font-size:13px;
 padding-top:8px;
@@ -19,23 +20,25 @@ padding-left:8px;
 }
 /* links */
 .ms-core-navigation > div > ul.root{
-border: 1px #fff solid;
+border: 1px #004c93 solid;
 padding-top:8px;
 padding-left:8px;
+border-radius: 6px !important; 
 }
 .ms-core-navigation > div > ul.root > li a{
-border-radius: 5px !important; 
+border-radius: 10px !important; 
 border: 1px #fff solid; /* Thin border for each section in a selected navbar dropdown */
 padding:15px 20px 22px 20px;  /*blue space around every element */
 font-size:13px;
 }
 .ms-core-navigation .ms-core-listMenu-horizontalBox li.static >  .ms-core-listMenu-item{
-margin-right:0.1px;
+margin-right:1px;
 }
 /* links not selected */
 .ms-core-navigation > div > ul.root > li.static a:link, ul.root > li.static a:visited{
 color:#fff; /* color of font in the global nav */
 background-color:#004c93;
+border-radius: 6px !important; 
 }
 /* links selected */
 .ms-core-navigation > div > ul.root > li.static > ul.static > li.selected a:link, ul.root > li.static > ul.static > li.selected a:visited{
@@ -44,8 +47,9 @@ background-color:#004c93; /* Selected dropdown navbar background and color goes 
 }
 /* home link selected */
 .ms-core-navigation div.ms-core-listMenu-horizontalBox > ul.static > li.selected a.selected{
-border: 0.5px transparent solid;
+
 background-color:#004c93;
+border-radius: 6px !important; 
 }
 /* home */
 .ms-core-navigation > div > ul.root > li.static > ul.static{
@@ -55,6 +59,7 @@ margin-left:0.5px;
 .ms-breadcrumb-top .ms-core-navigation ul.static > li a:hover{
 border:1px transparent solid;  color:#fff;
 background-color:#004c93;
+border-radius: 6px !important; 
 }
 
 
