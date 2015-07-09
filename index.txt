@@ -15,7 +15,7 @@ background-color:#004c93;
 .ms-core-navigation > div > ul.root > li.static a:link, ul.root > li.static a:visited{
 font-family:Arial; font-size:13px;
 padding-top:8px;
-padding-left:8px
+padding-left:8px;
 }
 /* links */
 .ms-core-navigation > div > ul.root{
