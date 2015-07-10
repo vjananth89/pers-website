@@ -112,8 +112,8 @@ background-color:#dddddd;
     #MSOZoneCell_WebPartWPQ2 .ms-WPTitle A
     {
         font-family: "Cambria";
-        color: red;
-        font-size: 18pt;
+        color: black;
+        font-size: 13pt;
     }
    
       
