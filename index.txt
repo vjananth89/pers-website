@@ -96,6 +96,7 @@ background-color:#dddddd;
 
 
 .dropdown-menu:after{border-bottom:6px solid #6a0032;border-color:rgba(0,0,0,0) rgba(0,0,0,0) #6a0032;border-style:solid;border-width:0 8px 10px;color:#fff;content:"";left:2em;line-height:1em;position:absolute;top:-10px}
+    
     /* === Title bar CSS === */
    
     /* TR - title bar for web part */
