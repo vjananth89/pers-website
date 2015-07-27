@@ -1,3 +1,4 @@
+
 <style>
 body {
     background-color: #004c93;
@@ -13,7 +14,7 @@ border-radius: 6px !important;
 }
 
 ul.dynamic {
-    background-color:#004c93;
+	background-color:#004c93;
         border-radius: 6px! important;
         border: 1px #004c93 solid;
 }
@@ -46,7 +47,7 @@ color:#fff; /* color of font in the global nav */
 background-color:#004c93;
 border-radius: 6px !important; 
 }
-/* links selected */
+/* links current subsite */
 .ms-core-navigation > div > ul.root > li.static > ul.static > li.selected a:link, ul.root > li.static > ul.static > li.selected a:visited{
 color:#fff;
 white-space: nowrap;
@@ -55,7 +56,7 @@ background-color:#004c93; /* Selected dropdown navbar background and color goes 
 }
 /* home link selected */
 .ms-core-navigation div.ms-core-listMenu-horizontalBox > ul.static > li.selected a.selected{
-
+color: #fff;
 background-color:#004c93;
 border-radius: 6px !important; 
 }
@@ -65,7 +66,8 @@ margin-left:0.5px;
 }
 /* Hover */
 .ms-breadcrumb-top .ms-core-navigation ul.static > li a:hover{
-border:1px transparent solid;  color:#fff;
+border:1px transparent solid;  
+color:#fff;
 background-color:#004c93;
 border-radius: 6px !important; 
 }
@@ -94,25 +96,83 @@ background-color:#dddddd;
    /* [ReplaceColor(themeColor:"BackgroundOverlay")] */ background-color: #fff;
 }
 
+/* ==========================================*/
 
+/* ==========================================*/
 .dropdown-menu:after{border-bottom:6px solid #6a0032;border-color:rgba(0,0,0,0) rgba(0,0,0,0) #6a0032;border-style:solid;border-width:0 8px 10px;color:#fff;content:"";left:2em;line-height:1em;position:absolute;top:-10px}
+  
+   
+  /* === Web Part Title bar === */  
+.ms-webpart-chrome-title
+{
+color: white;
+background-color: #004c93;
+border-radius: 4px !important; 
+padding-top:5px;  
+padding-left:10px;
+font-weight:bold; 
+font-family: Arial, sans-serif; 
+font-size:16px; 
+
+}
+
+.ms-webpart-titleText.ms-webpart-titleText, .ms-webpart-titleText > a { color: white;}
+
+.ms-webpart-chrome-title A, .ms-webpart-chrome-title A:link, .ms-webpart-chrome-title A:visited, .ms-webpart-chrome-title A:hover, .ms-webpart-chrome-title A { color: white; }
+
+ 
+
+.ms-core-listMenu-verticalBox UL.root > LI > .menu-item{  
+  font-weight:bold;  
+  background-color:#004c93;  
+  color:#ffffff;  
+  border-radius: 2px !important;
+  border-bottom-color:#ffffff;  
+  border-bottom-style:solid;  
+  border-bottom-width:1px;  
+  min-height:25px;  
+  padding-top:5px;  
+  padding-left:10px;  
+  font-size:12px;  
+  font-family:Arial, Helvetica, Sans-Serif !important;  
+ }  
+ .ms-core-listMenu-verticalBox > ul.root > li.static > ul.static > li.static > a:hover {  
+   color: #aaa !important;  
+   background-color:#004c93 !important;  
+   text-decoration:none;  
+ }  
+ .ms-core-listMenu-verticalBox > ul.root > li.selected > a {  
     
-    /* === Title bar CSS === */
-   
-    /* TR - title bar for web part */
-   
-    #MSOZoneCell_WebPartWPQ2 .ms-WPHeader
-    {
-        background-color: #222;
-    }
-   
-    /*  H3 - Text in title bar of web part */
-    #MSOZoneCell_WebPartWPQ2 .ms-WPTitle A
-    {
-        font-family: "Cambria";
-        color: black;
-        font-size: 13pt;
-    }
-   
+    background-color:#004c93;  
+   color:#ffffff !important;  
+ }  
+ .ms-core-listMenu-verticalBox > ul.root > li > a:hover {  
+     
+    background-color:#004c93;  
+   color:#ffffff !important;  
+   text-decoration:underline;  
+ }  
+ .ms-core-listMenu-verticalBox > ul.root > li.static > ul.static > li > a {  
+  font-size:12px;  
+  padding-left:10px;  
+  font-family:Arial, Helvetica, Sans-Serif !important;  
+ }  
+ .ms-core-listMenu-verticalBox > ul.root > li.static > ul.static > li > a.selected {  
+    
+    color: #D95E00 !important;  
+   background-color:#004c93 !important;  
+    text-decoration: none;  
+    border: 1px #004c93 solid;  
+    font-weight:bold;  
+ }  
+ .ms-core-listMenu-verticalBox a.selected  
+ {  
+  border: 1px #004c93 solid !important;
+ background-color:#004c93 !important;  
+ }  
+ .ms-core-listMenu-verticalBox UL.root UL  
+ {  
+  margin:0px 0px 10px 0px !important;  
+ }  
 
 </style>
